@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+ 
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    background-color: #38006b; 
+}
+
+footer{
+    display: flex;
+    height: 10vh; 
+    background-color: #38006b;
+    
+}
+
+main {
+    background-color: #e0e0e0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.media {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 2.5%;
+}
+
+.arrow {
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    width: 25px;
+    height: 25px;
+    background-color: #ccc;
+}
+
+.media-body {
+    flex: 1;
+    flex-direction: row;
+}
+
+.media-body {
+    flex: 1;
+    flex-direction: row;
+    margin-left: 2.5%;
+}
+
+.media-object {
+    width: 75px;
+    height: 75px;
+}
+

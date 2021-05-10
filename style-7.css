@@ -1,0 +1,8 @@
+.form {
+  display: flex
+}
+
+.form__field {
+   flex: 1
+}
+
